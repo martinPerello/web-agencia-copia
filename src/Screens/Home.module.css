@@ -46,15 +46,15 @@ ellos. */
 
 .callToAction {  /*2 botones de abajo*/
     background-color: #508094; /* Color de fondo de los botones de llamada a la acción */
-    padding: 10px; /* Tamaño del relleno interno de los botones */
-    margin-left: 60px; /* Espacio a la izquierda de los botones */
+    padding: 8px; /* Tamaño del relleno interno de los botones */
+    margin-left: 5px; /* Espacio a la izquierda de los botones */
     transition: 0.5s; /* Transición suave de 0.5 segundos al cambiar el tamaño del botón */
     border: 1px solid #f1f1f1; /* Borde de 1px con color #f1f1f1 y estilo sólido */
     border-radius: 4px; /* Bordes redondeados de 4px para los botones */
 }
 
 .callToAction:hover { /*2 botones de abajo cuando pasamos el mouse*/
-    padding: 15px; /* Tamaño del relleno interno de los botones cuando pasamos el cursor sobre ellos */
+    padding: 10px; /* Tamaño del relleno interno de los botones cuando pasamos el cursor sobre ellos */
     cursor: pointer; /* Cambia el cursor del mouse a "pointer" para indicar que el botón es clickeable */
 }
 
