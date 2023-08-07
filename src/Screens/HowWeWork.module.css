@@ -1,0 +1,34 @@
+/*El código proporcionado para los estilos de la sección 
+"Cómo trabajamos" (.howWeWork) y el título (.title).
+display: flex;: Establece el contenedor de la sección como un contenedor flexible, lo que 
+permite controlar el diseño de los elementos secundarios.
+padding-top: 100px; padding-bottom: 100px;: Agrega un espacio de relleno de 100 píxeles en 
+la parte superior e inferior de la sección para separarla del contenido circundante.
+flex-direction: column;: Establece la dirección de los elementos secundarios dentro de la 
+sección en forma de columna vertical.
+background: linear-gradient(180deg, #1a1826, #413b5e);: Aplica un fondo de gradiente lineal 
+con colores #1a1826 y #413b5e, creando un efecto de transición de color de arriba a abajo en la sección.
+font-size: 3em;: Establece el tamaño de fuente del título en 3 veces el tamaño de fuente 
+predeterminado del elemento.
+color: rgb(149, 165, 106);: Define el color del texto del título utilizando valores RGB.
+font-weight: 600;: Establece el grosor de la fuente del título como seminegrita (600).
+text-align: center;: Centra el texto del título horizontalmente dentro de su contenedor.
+*/
+
+.howWeWork {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-direction: column;
+    background: linear-gradient(180deg, #1a1826,#413b5e);
+    transition: background-color 0.3s ease;/*(nuevo) el fondo cambie de color de forma suave durante 0.3 segundos cuando haya cambios en la sección.*/
+}
+
+.title {
+    font-size: 3em;
+    color: rgb(149, 165, 106);
+    font-weight: 600;
+    text-align: center;
+}
+
+

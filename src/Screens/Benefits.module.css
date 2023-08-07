@@ -1,0 +1,46 @@
+/*Estilos CSS adicionales del componente Benefits en la página.
+Con estos estilos adicionales, el componente Benefits tendrá los siguientes aspectos visuales:
+
+El contenedor principal de los beneficios (benefits) se mostrará como una columna 
+(flex-direction: column)
+y se alineará al centro (align-items: center). Tendrá un fondo degradado (background: 
+linear-gradient(0deg, #1a1826, #413b5e)) con los colores #1a1826 y #413b5e, lo que dará un aspecto 
+degradado en el fondo.
+
+Los párrafos (<p>) que muestran los beneficios tendrán un color de texto blanco (color: #f1f1f1) 
+para resaltar sobre el fondo oscuro. Tendrán un espaciado en la parte superior (padding-top: 20px) 
+para separarlos del título y entre sí. Además, tendrán un tamaño de fuente de 1.5em.
+
+El título de la sección de beneficios (benefitTitle) se mostrará centrado en la página (text-align: 
+center). 
+Tendrá un tamaño de fuente grande de 3em y un peso de fuente de 600 para hacerlo más prominente. 
+El color del título será un tono verde (#95a56a) definido por rgb(149, 165, 106).
+
+Con estos estilos, el componente Benefits se verá estéticamente agradable y destacará los beneficios 
+al tener una web profesional. Los colores de fondo, tamaños de fuente y alineaciones 
+se pueden ajustar según las preferencias de diseño del proyecto.
+
+Estilos del contenedor principal de los beneficios */
+.benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(0deg, #1a1826, #413b5e);
+    padding-bottom: 100px;
+}
+
+/* Estilos de los párrafos que muestran los beneficios */
+.benefits p {
+    color: #f1f1f1;
+    padding-top: 20px;
+    font-size: 1.5em;
+}
+
+/* Estilos del título de la sección de beneficios */
+.benefitTitle {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 600;
+    color: rgb(149, 165, 106);
+}
+

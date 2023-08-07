@@ -1,0 +1,71 @@
+/*Estilos CSS adicionales del componente Step en diferentes tamaños de pantalla.
+Con estos estilos adicionales, el componente Step tendrá los siguientes comportamientos:
+
+En dispositivos móviles o pantallas con un ancho menor a 800px, los elementos 
+(número del paso y texto del paso) se mostrarán en una columna. 
+El número del paso (stepNumber) tendrá un tamaño de fuente grande, el texto del paso (text) 
+tendrá un tamaño de fuente menor y se alineará al centro (text-align: center).
+
+En pantallas más grandes (mayor o igual a 800px de ancho), los elementos se mostrarán 
+en una fila (horizontal). El número del paso (stepNumber) tendrá un espaciado a la 
+derecha de 40px para separarlo del texto (padding-right: 40px). 
+Además, el tamaño de fuente del número del paso y el texto del paso se mantendrán, 
+pero ahora estarán uno al lado del otro en la misma fila.
+
+Con estos estilos, el componente Step se adapta de manera responsable a diferentes 
+tamaños de pantalla, proporcionando una experiencia de usuario adecuada tanto en 
+dispositivos móviles como en escritorios.
+
+Estilos generales del contenedor */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos del número del paso */
+.stepNumber {
+    font-size: 5em;
+    color: white;
+    font-weight: 600;
+}
+
+/* Estilos del texto del paso */
+.text {
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+/* Estilos de la línea decorativa del paso */
+.stepBorder {
+    background-color: #356161;
+    height: 6px;
+    width: 60%;
+}
+
+/* Estilos del contenedor que contiene el número del paso y el texto del paso */
+.stepContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para pantallas de escritorio (ancho mayor o igual a 800px) */
+@media (min-width: 800px) {
+    /* Cambiar la dirección de flexión a fila (horizontal) */
+    .stepContainer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* Agregar un espaciado a la derecha del número del paso para separar del texto */
+    .stepNumber {
+        padding-right: 40px;
+    }
+}
+
+
+
+
+

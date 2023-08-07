@@ -1,0 +1,57 @@
+/* Estilos del contenedor principal de la sección de inicio */
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #413b5e;
+    color: #f1f1f1;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* Estilos para el contenedor del título */
+.titleContainer {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los elementos <p> dentro del contenedor de título */
+.titleContainer p {
+    margin: 0;
+}
+
+/* Estilos para el texto en negrita dentro del contenedor de título */
+.titleContainer b {
+    color: #95a56a; /* Color verde personalizado */
+}
+
+/* Estilos para el contenedor de llamada a la acción (CTA) */
+.ctaContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/* Estilos para el enlace de "Ponerse en contacto" y "Obtener un presupuesto" */
+.callToAction {
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 10px;
+    background-color: #95a56a; /* Color verde personalizado */
+    color: #f1f1f1;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.5em;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Estilos para el enlace de "Ponerse en contacto" y "Obtener un presupuesto" al pasar el mouse */
+.callToAction:hover {
+    background-color: #5a6456; /* Cambia el color al pasar el mouse */
+}

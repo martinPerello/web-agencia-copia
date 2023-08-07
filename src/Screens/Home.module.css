@@ -1,0 +1,63 @@
+/*Contiene estilos CSS que definen la apariencia de la página principal (Home) de una aplicación 
+web en React.
+Descripción de los estilos:
+
+.home: Define el contenedor principal de la página Home. Es un contenedor flexible con dirección de 
+columna, lo que coloca los elementos en una columna vertical. El fondo utiliza una gradiente lineal 
+con los colores #1a1826 y #413b5e. También tiene relleno en la parte superior, inferior y lateral, 
+y alinea los elementos en el centro.
+
+.titleContainer: Añade un espacio de 80px en la parte superior del contenedor del título. 
+Es útil para colocar el título en una posición más alta.
+
+.home p: Estiliza los párrafos dentro del contenedor principal. Los establece con un tamaño de letra
+de 3em y un color "aliceblue" (un tono de blanco).
+
+.callToAction: Define el estilo de los botones de llamada a la acción. Los botones tienen un fondo de 
+color #508094, un relleno de 10px, un margen izquierdo de 60px, una transición suave de 0.5 segundos 
+y un borde con color #f1f1f1 y esquinas redondeadas.
+
+.callToAction:hover: Estiliza los botones de llamada a la acción cuando el cursor pasa sobre ellos. 
+El relleno se incrementa a 15px y el cursor se cambia a "pointer" para indicar que son clickeables.
+
+.ctaContainer: Agrega un espacio de 40px en la parte superior del contenedor de llamada a la acción.
+Esto permite separar los botones de la sección anterior.
+
+En general, los estilos proporcionados definen una apariencia atractiva para la página principal con 
+un fondo degradado y botones interactivos que cambian su tamaño cuando el usuario pasa el cursor sobre
+ellos. */
+
+.home {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #1a1826, #413b5e);
+    padding: 20px 20px 200px;
+    align-items: center;
+}
+
+.titleContainer {/*Titulo de pantalla principal*/
+    padding-top: 80px; /* Espacio de 80px en la parte superior del contenedor del título */
+}
+
+.home p { /*letras principales del home*/
+    font-size: 3em; /* Tamaño de letra de los párrafos dentro del contenedor principal */
+    color: aliceblue; /* Color del texto de los párrafos, en este caso, "aliceblue" */
+}
+
+.callToAction {  /*2 botones de abajo*/
+    background-color: #508094; /* Color de fondo de los botones de llamada a la acción */
+    padding: 10px; /* Tamaño del relleno interno de los botones */
+    margin-left: 60px; /* Espacio a la izquierda de los botones */
+    transition: 0.5s; /* Transición suave de 0.5 segundos al cambiar el tamaño del botón */
+    border: 1px solid #f1f1f1; /* Borde de 1px con color #f1f1f1 y estilo sólido */
+    border-radius: 4px; /* Bordes redondeados de 4px para los botones */
+}
+
+.callToAction:hover { /*2 botones de abajo cuando pasamos el mouse*/
+    padding: 15px; /* Tamaño del relleno interno de los botones cuando pasamos el cursor sobre ellos */
+    cursor: pointer; /* Cambia el cursor del mouse a "pointer" para indicar que el botón es clickeable */
+}
+
+.ctaContainer {
+    padding-top: 40px; /* Espacio de 40px en la parte superior del contenedor de llamada a la acción */
+}

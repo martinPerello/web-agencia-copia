@@ -1,0 +1,40 @@
+/* Estilos para la sección de Servicios */
+
+/* Estilos generales */
+.services {
+  display: flex;
+  padding-top: 100px;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(0deg, #1a1826, #413b5e);
+}
+
+/* Estilos para la imagen en pantalla reducida */
+.webImage {
+  width: 298px;
+  height: 193px;
+  padding-bottom: 80px; /* Espacio entre la imagen y el título */
+}
+
+/* Estilos para el texto en pantalla reducida */
+.services p {
+  text-align: center;
+  font-size: 3em;
+  font-weight: 600;
+  color: rgb(149, 165, 106);
+  padding-bottom: 60px; /* Espacio entre la imagen y el título */
+}
+
+/* Media query para pantalla completa (más de 800px de ancho) */
+@media (min-width: 800px) {
+  /* Estilos para el texto en pantalla completa */
+  .services p {
+    font-size: 3em;
+  }
+
+  /* Estilos para la imagen en pantalla completa */
+  .webImage {
+    width: 596px;
+    height: 386px;
+  }
+}
